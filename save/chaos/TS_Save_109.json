@@ -1,0 +1,2534 @@
+{
+  "SaveName": "Skaven clan verminus",
+  "GameMode": "Skaven",
+  "Date": "2/10/2021 6:02:40 PM",
+  "VersionNumber": "v13.0.4",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "Table_RPG",
+  "Sky": "Sky_Regal",
+  "Note": "",
+  "Rules": "",
+  "MusicPlayer": {
+    "RepeatSong": true,
+    "PlaylistEntry": -1,
+    "CurrentAudioTitle": "Ultramarines Chant",
+    "CurrentAudioURL": "http://cloud-3.steamusercontent.com/ugc/773976977327440295/17C1CAA1F70F178395E93C05E55946061E695598/",
+    "AudioLibrary": [
+      {
+        "Item1": "http://cloud-3.steamusercontent.com/ugc/773976977327440295/17C1CAA1F70F178395E93C05E55946061E695598/",
+        "Item2": "Ultramarines Chant"
+      }
+    ]
+  },
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.6360005,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 1,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0,
+    "LutURL": ""
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0
+  },
+  "ComponentTags": {
+    "labels": []
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "DecalPallet": [],
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate ()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "ObjectStates": [
+    {
+      "GUID": "161fa4",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -15.1108065,
+        "posY": 4.81034231,
+        "posZ": -20.1076221,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 11.7723083,
+        "scaleY": 9.174497,
+        "scaleZ": 4.87123871
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.856,
+        "g": 0.09999997,
+        "b": 0.09399996,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Red",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "6cd7b8",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -30.2150211,
+        "posY": 4.81034231,
+        "posZ": 10.17524,
+        "rotX": 0.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6576433,
+        "scaleY": 9.174497,
+        "scaleZ": 4.9211936
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.171999961,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Yellow",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "cedc4d",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 30.25128,
+        "posY": 4.81034231,
+        "posZ": 9.59069252,
+        "rotX": 0.0,
+        "rotY": 270.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6576357,
+        "scaleY": 9.174497,
+        "scaleZ": 4.9211936
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.627,
+        "g": 0.124999978,
+        "b": 0.941,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Purple",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "abe9e4",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 15.4749184,
+        "posY": 4.81034231,
+        "posZ": 19.8365288,
+        "rotX": 0.0,
+        "rotY": 179.8,
+        "rotZ": 0.0,
+        "scaleX": 11.774478,
+        "scaleY": 9.174497,
+        "scaleZ": 4.87253571
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.117999978,
+        "g": 0.53,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Blue",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "a434e9",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 15.1961479,
+        "posY": 4.81034231,
+        "posZ": -20.1400986,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 11.7722969,
+        "scaleY": 9.17449951,
+        "scaleZ": 4.87123871
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "White",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "da51ad",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -15.1927767,
+        "posY": 4.81034231,
+        "posZ": 19.787817,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 11.7722969,
+        "scaleY": 9.174497,
+        "scaleZ": 4.87123871
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.191999972,
+        "g": 0.701,
+        "b": 0.167999953,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Green",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "8b8b8c",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 30.10358,
+        "posY": 4.81034231,
+        "posZ": -8.449126,
+        "rotX": 0.0,
+        "rotY": 270.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6576319,
+        "scaleY": 9.174497,
+        "scaleZ": 4.9211936
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.96,
+        "g": 0.438999981,
+        "b": 0.807,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Pink",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "67334b",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -30.247818,
+        "posY": 4.81034231,
+        "posZ": -8.822588,
+        "rotX": 0.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6576471,
+        "scaleY": 9.174497,
+        "scaleZ": 4.9211936
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9559999,
+        "g": 0.39199996,
+        "b": 0.112999953,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Orange",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "af4f90",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0407997929,
+        "posY": 0.9841798,
+        "posZ": 14.3083868,
+        "rotX": -0.004294389,
+        "rotY": 179.395721,
+        "rotZ": 0.008708569,
+        "scaleX": 0.475000471,
+        "scaleY": 0.475000471,
+        "scaleZ": 0.475000471
+      },
+      "Nickname": "Clan Rat",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992179,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "http://i.imgur.com/aGIjlek.png",
+        "NormalURL": "http://i.imgur.com/o8SLaoI.png",
+        "ColliderURL": "https://paste.ee/r/HueaF",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "49c945",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.0400372855,
+          "y": -1.03213346,
+          "z": 0.172349021
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      }
+    },
+    {
+      "GUID": "49c945",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.1714956,
+        "posY": 1.75829041,
+        "posZ": 14.2782946,
+        "rotX": 359.907379,
+        "rotY": 269.996338,
+        "rotZ": 0.00825914,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Clan Rat",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/sy5c0zmh9wl9c6k/2x125in_square_nobase_mirror.obj?dl=1",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/883128271158476669/D8990E6B285C23AE3414E242AF8292AE01BC44EE/",
+        "NormalURL": "",
+        "ColliderURL": "https://www.dropbox.com/s/x3gvl8szfvpu4nx/MyFigure_Collider_2in_nn.obj?dl=1",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 5.0,
+        "AngularDrag": 50.0,
+        "UseGravity": true
+      }
+    },
+    {
+      "GUID": "72454c",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.963447034,
+        "posY": 0.9841036,
+        "posZ": 14.3744955,
+        "rotX": 0.0005516813,
+        "rotY": 179.991623,
+        "rotZ": 0.00588102033,
+        "scaleX": 0.475000471,
+        "scaleY": 0.475000471,
+        "scaleZ": 0.475000471
+      },
+      "Nickname": "Clan Rat",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992179,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "http://i.imgur.com/aGIjlek.png",
+        "NormalURL": "http://i.imgur.com/o8SLaoI.png",
+        "ColliderURL": "https://paste.ee/r/HueaF",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "69b303",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.01608362,
+          "y": -1.032223,
+          "z": 0.00492052734
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      }
+    },
+    {
+      "GUID": "69b303",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.969050348,
+        "posY": 1.75826454,
+        "posZ": 14.3636627,
+        "rotX": 359.8607,
+        "rotY": 269.99234,
+        "rotZ": 359.908752,
+        "scaleX": 0.75,
+        "scaleY": 0.75,
+        "scaleZ": 0.75
+      },
+      "Nickname": "Clan Rat",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/sy5c0zmh9wl9c6k/2x125in_square_nobase_mirror.obj?dl=1",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/883128271158484291/AC56D77BEBD422261C4BB1B11A2DB30C779782DA/",
+        "NormalURL": "",
+        "ColliderURL": "https://www.dropbox.com/s/x3gvl8szfvpu4nx/MyFigure_Collider_2in_nn.obj?dl=1",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 5.0,
+        "AngularDrag": 50.0,
+        "UseGravity": true
+      }
+    },
+    {
+      "GUID": "d9e5e6",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 2.01887,
+        "posY": 0.984138548,
+        "posZ": 14.3727083,
+        "rotX": -0.00293055619,
+        "rotY": 179.997208,
+        "rotZ": -0.00195137749,
+        "scaleX": 0.475000471,
+        "scaleY": 0.475000471,
+        "scaleZ": 0.475000471
+      },
+      "Nickname": "Clan Rat",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992179,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "http://i.imgur.com/aGIjlek.png",
+        "NormalURL": "http://i.imgur.com/o8SLaoI.png",
+        "ColliderURL": "https://paste.ee/r/HueaF",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "16be81",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.0238330923,
+          "y": -1.020777,
+          "z": 0.186012357
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      }
+    },
+    {
+      "GUID": "16be81",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 2.24466133,
+        "posY": 2.18211412,
+        "posZ": 14.3410816,
+        "rotX": 359.655,
+        "rotY": 270.0006,
+        "rotZ": 0.172548831,
+        "scaleX": 1.17499983,
+        "scaleY": 1.17499983,
+        "scaleZ": 1.17499983
+      },
+      "Nickname": "Clan Rat",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/sy5c0zmh9wl9c6k/2x125in_square_nobase_mirror.obj?dl=1",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/883128271158485299/06800D1FB2485566F72B0B9EB61A85C995569909/",
+        "NormalURL": "",
+        "ColliderURL": "https://www.dropbox.com/s/x3gvl8szfvpu4nx/MyFigure_Collider_2in_nn.obj?dl=1",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 5.0,
+        "AngularDrag": 50.0,
+        "UseGravity": true
+      }
+    },
+    {
+      "GUID": "603254",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -0.9107988,
+        "posY": 0.984250367,
+        "posZ": 14.2933855,
+        "rotX": 0.0240203887,
+        "rotY": 179.998825,
+        "rotZ": 359.986237,
+        "scaleX": 0.475000471,
+        "scaleY": 0.475000471,
+        "scaleZ": 0.475000471
+      },
+      "Nickname": "Clan Rat",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992179,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "http://i.imgur.com/aGIjlek.png",
+        "NormalURL": "http://i.imgur.com/o8SLaoI.png",
+        "ColliderURL": "https://paste.ee/r/HueaF",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "e59eca",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.01691228,
+          "y": -1.028369,
+          "z": 0.177865252
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      }
+    },
+    {
+      "GUID": "e59eca",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -0.757562935,
+        "posY": 1.85824144,
+        "posZ": 14.2796125,
+        "rotX": 359.87,
+        "rotY": 270.006622,
+        "rotZ": 359.96,
+        "scaleX": 0.849999964,
+        "scaleY": 0.849999964,
+        "scaleZ": 0.849999964
+      },
+      "Nickname": "Clan Rat",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/sy5c0zmh9wl9c6k/2x125in_square_nobase_mirror.obj?dl=1",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/883128271158488757/56D88019013F1281D0DBCDB1AD4697D6F9BA5718/",
+        "NormalURL": "",
+        "ColliderURL": "https://www.dropbox.com/s/x3gvl8szfvpu4nx/MyFigure_Collider_2in_nn.obj?dl=1",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 5.0,
+        "AngularDrag": 50.0,
+        "UseGravity": true
+      }
+    },
+    {
+      "GUID": "cfbe48",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -1.96316171,
+        "posY": 0.9841491,
+        "posZ": 14.3142967,
+        "rotX": -0.00459369551,
+        "rotY": 179.998688,
+        "rotZ": 0.004376718,
+        "scaleX": 0.475000471,
+        "scaleY": 0.475000471,
+        "scaleZ": 0.475000471
+      },
+      "Nickname": "Clan Rat",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992179,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "http://i.imgur.com/aGIjlek.png",
+        "NormalURL": "http://i.imgur.com/o8SLaoI.png",
+        "ColliderURL": "https://paste.ee/r/HueaF",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "15e0c5",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.059642598,
+          "y": -1.03014207,
+          "z": 0.02711581
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      }
+    },
+    {
+      "GUID": "15e0c5",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -1.94007671,
+        "posY": 1.808258,
+        "posZ": 14.26719,
+        "rotX": 359.9022,
+        "rotY": 270.000122,
+        "rotZ": 359.957123,
+        "scaleX": 0.8,
+        "scaleY": 0.8,
+        "scaleZ": 0.8
+      },
+      "Nickname": "Clan Rat",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/sy5c0zmh9wl9c6k/2x125in_square_nobase_mirror.obj?dl=1",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/883128271158493249/E0D974AA67E612591E317D6140A8C7C7EBE8E11A/",
+        "NormalURL": "",
+        "ColliderURL": "https://www.dropbox.com/s/x3gvl8szfvpu4nx/MyFigure_Collider_2in_nn.obj?dl=1",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 5.0,
+        "AngularDrag": 50.0,
+        "UseGravity": true
+      }
+    },
+    {
+      "GUID": "710f41",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -11.4930105,
+        "posY": 0.984136641,
+        "posZ": 14.3740292,
+        "rotX": -0.000849869335,
+        "rotY": 179.879715,
+        "rotZ": 0.00303175,
+        "scaleX": 0.475000471,
+        "scaleY": 0.475000471,
+        "scaleZ": 0.475000471
+      },
+      "Nickname": "Stormvermin",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992179,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "http://i.imgur.com/aGIjlek.png",
+        "NormalURL": "http://i.imgur.com/o8SLaoI.png",
+        "ColliderURL": "https://paste.ee/r/HueaF",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "6c3e95",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.0313635133,
+          "y": -1.02053308,
+          "z": -0.09404437
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      }
+    },
+    {
+      "GUID": "6c3e95",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -11.5899143,
+        "posY": 2.18313265,
+        "posZ": 14.3357162,
+        "rotX": 0.0459855273,
+        "rotY": 269.9996,
+        "rotZ": 0.0691021755,
+        "scaleX": 1.17499971,
+        "scaleY": 1.17499971,
+        "scaleZ": 1.02005816
+      },
+      "Nickname": "Stormvermin",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/sy5c0zmh9wl9c6k/2x125in_square_nobase_mirror.obj?dl=1",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/883128271158494734/97016D84AB28EF06D8BD7E35A6E8A0CFA3CD8C96/",
+        "NormalURL": "",
+        "ColliderURL": "https://www.dropbox.com/s/x3gvl8szfvpu4nx/MyFigure_Collider_2in_nn.obj?dl=1",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 5.0,
+        "AngularDrag": 50.0,
+        "UseGravity": true
+      }
+    },
+    {
+      "GUID": "ec5ce9",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -10.3961067,
+        "posY": 0.984131634,
+        "posZ": 14.4337559,
+        "rotX": 0.0034051768,
+        "rotY": 179.974335,
+        "rotZ": -0.00374696753,
+        "scaleX": 0.475000471,
+        "scaleY": 0.475000471,
+        "scaleZ": 0.475000471
+      },
+      "Nickname": "Stormvermin",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992179,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "http://i.imgur.com/aGIjlek.png",
+        "NormalURL": "http://i.imgur.com/o8SLaoI.png",
+        "ColliderURL": "https://paste.ee/r/HueaF",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "9007b1",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.0381851159,
+          "y": -1.0254184,
+          "z": -0.2700564
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      }
+    },
+    {
+      "GUID": "9007b1",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -10.6524019,
+        "posY": 1.95846772,
+        "posZ": 14.3993855,
+        "rotX": 359.982971,
+        "rotY": 269.996124,
+        "rotZ": 359.886932,
+        "scaleX": 0.949999869,
+        "scaleY": 0.949999869,
+        "scaleZ": 0.949999869
+      },
+      "Nickname": "Stormvermin",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/sy5c0zmh9wl9c6k/2x125in_square_nobase_mirror.obj?dl=1",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/883128271158497227/7CD10783FDBEAC1C800043C482DE073726F8D0E5/",
+        "NormalURL": "",
+        "ColliderURL": "https://www.dropbox.com/s/x3gvl8szfvpu4nx/MyFigure_Collider_2in_nn.obj?dl=1",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 5.0,
+        "AngularDrag": 50.0,
+        "UseGravity": true
+      }
+    },
+    {
+      "GUID": "798288",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -9.326328,
+        "posY": 0.9841472,
+        "posZ": 14.45525,
+        "rotX": -0.004399832,
+        "rotY": 179.997467,
+        "rotZ": 0.004287701,
+        "scaleX": 0.475000471,
+        "scaleY": 0.475000471,
+        "scaleZ": 0.475000471
+      },
+      "Nickname": "Stormvermin",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992179,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "http://i.imgur.com/aGIjlek.png",
+        "NormalURL": "http://i.imgur.com/o8SLaoI.png",
+        "ColliderURL": "https://paste.ee/r/HueaF",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "1642ab",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.0306490026,
+          "y": -1.02627242,
+          "z": 0.0450948551
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      }
+    },
+    {
+      "GUID": "1642ab",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -9.29516,
+        "posY": 1.92790616,
+        "posZ": 14.4278288,
+        "rotX": 359.8928,
+        "rotY": 270.000336,
+        "rotZ": 359.9531,
+        "scaleX": 0.9196347,
+        "scaleY": 0.9196347,
+        "scaleZ": 0.652283669
+      },
+      "Nickname": "Stormvermin",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/sy5c0zmh9wl9c6k/2x125in_square_nobase_mirror.obj?dl=1",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/883128271158499688/86A30CD65985A219C89C85EB6772498A4357541D/",
+        "NormalURL": "",
+        "ColliderURL": "https://www.dropbox.com/s/x3gvl8szfvpu4nx/MyFigure_Collider_2in_nn.obj?dl=1",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 5.0,
+        "AngularDrag": 50.0,
+        "UseGravity": true
+      }
+    },
+    {
+      "GUID": "a85621",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 10.1395445,
+        "posY": 0.990482032,
+        "posZ": 14.8755274,
+        "rotX": 0.00194134645,
+        "rotY": 179.99971,
+        "rotZ": 0.00348870456,
+        "scaleX": 0.6000003,
+        "scaleY": 0.6000003,
+        "scaleZ": 0.6000003
+      },
+      "Nickname": "Skaven Warlord",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992179,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "http://i.imgur.com/aGIjlek.png",
+        "NormalURL": "http://i.imgur.com/o8SLaoI.png",
+        "ColliderURL": "https://paste.ee/r/HueaF",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "c6aebe",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.00240393169,
+          "y": -1.01998007,
+          "z": -0.01232614
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      }
+    },
+    {
+      "GUID": "c6aebe",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 10.1222515,
+        "posY": 2.54596424,
+        "posZ": 14.8801413,
+        "rotX": 359.944183,
+        "rotY": 270.0001,
+        "rotZ": 359.965179,
+        "scaleX": 1.52499926,
+        "scaleY": 1.52499926,
+        "scaleZ": 1.52499926
+      },
+      "Nickname": "Skaven Warlord",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/sy5c0zmh9wl9c6k/2x125in_square_nobase_mirror.obj?dl=1",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/883128271158502594/537F6ECBE07036EC579A35C778517AA67DB31ACA/",
+        "NormalURL": "",
+        "ColliderURL": "https://www.dropbox.com/s/x3gvl8szfvpu4nx/MyFigure_Collider_2in_nn.obj?dl=1",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 5.0,
+        "AngularDrag": 50.0,
+        "UseGravity": true
+      }
+    },
+    {
+      "GUID": "979292",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 11.6847486,
+        "posY": 0.9904623,
+        "posZ": 14.8183918,
+        "rotX": 0.0008503681,
+        "rotY": 179.914291,
+        "rotZ": -0.00354703027,
+        "scaleX": 0.6000003,
+        "scaleY": 0.6000003,
+        "scaleZ": 0.6000003
+      },
+      "Nickname": "Skaven Warlord",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992179,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "http://i.imgur.com/aGIjlek.png",
+        "NormalURL": "http://i.imgur.com/o8SLaoI.png",
+        "ColliderURL": "https://paste.ee/r/HueaF",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "7ed96f",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.05605813,
+          "y": -1.03218913,
+          "z": 0.256004959
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      }
+    },
+    {
+      "GUID": "7ed96f",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 11.9616451,
+        "posY": 1.96599793,
+        "posZ": 14.7565584,
+        "rotX": 359.903046,
+        "rotY": 269.9784,
+        "rotZ": 0.09940334,
+        "scaleX": 1.07499969,
+        "scaleY": 0.945612,
+        "scaleZ": 1.07499969
+      },
+      "Nickname": "Skaven Warlord",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/sy5c0zmh9wl9c6k/2x125in_square_nobase_mirror.obj?dl=1",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/883128271158505283/F6026B405C637E5BC9B855AEFE49AA51D6985BB7/",
+        "NormalURL": "",
+        "ColliderURL": "https://www.dropbox.com/s/x3gvl8szfvpu4nx/MyFigure_Collider_2in_nn.obj?dl=1",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 5.0,
+        "AngularDrag": 50.0,
+        "UseGravity": true
+      }
+    },
+    {
+      "GUID": "740235",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 13.2885666,
+        "posY": 0.9904806,
+        "posZ": 14.9236765,
+        "rotX": -0.00116578827,
+        "rotY": 179.979324,
+        "rotZ": -0.000269151875,
+        "scaleX": 0.6000003,
+        "scaleY": 0.6000003,
+        "scaleZ": 0.6000003
+      },
+      "Nickname": "Skaven Warlord",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992179,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "http://i.imgur.com/aGIjlek.png",
+        "NormalURL": "http://i.imgur.com/o8SLaoI.png",
+        "ColliderURL": "https://paste.ee/r/HueaF",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "ab8520",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.03194598,
+          "y": -1.02320933,
+          "z": -0.07293288
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      }
+    },
+    {
+      "GUID": "ab8520",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 13.1816578,
+        "posY": 2.33312774,
+        "posZ": 14.8746624,
+        "rotX": 359.925079,
+        "rotY": 269.9805,
+        "rotZ": 0.05611858,
+        "scaleX": 1.49171793,
+        "scaleY": 1.31217372,
+        "scaleZ": 1.49171793
+      },
+      "Nickname": "Skaven Warlord",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/sy5c0zmh9wl9c6k/2x125in_square_nobase_mirror.obj?dl=1",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/883128271158506983/CB9337228DC706F3001F90AF2AF7962E48749C95/",
+        "NormalURL": "",
+        "ColliderURL": "https://www.dropbox.com/s/x3gvl8szfvpu4nx/MyFigure_Collider_2in_nn.obj?dl=1",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 5.0,
+        "AngularDrag": 50.0,
+        "UseGravity": true
+      }
+    },
+    {
+      "GUID": "d8242f",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 21.9868469,
+        "posY": 1.051381,
+        "posZ": 14.0382137,
+        "rotX": -0.0006188568,
+        "rotY": 180.000748,
+        "rotZ": 0.000115033661,
+        "scaleX": 2.438654,
+        "scaleY": 1.79999948,
+        "scaleZ": 1.79999948
+      },
+      "Nickname": "Skaven Warlord On Broodhorror",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992179,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "http://i.imgur.com/aGIjlek.png",
+        "NormalURL": "http://i.imgur.com/o8SLaoI.png",
+        "ColliderURL": "https://paste.ee/r/HueaF",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "fc544a",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": -0.0238857884,
+          "y": -1.03511119,
+          "z": 0.05086576
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      }
+    },
+    {
+      "GUID": "fc544a",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 22.1727352,
+        "posY": 3.74729681,
+        "posZ": 14.10128,
+        "rotX": -0.004831291,
+        "rotY": 270.010437,
+        "rotZ": 359.981,
+        "scaleX": 2.60450029,
+        "scaleY": 2.60450029,
+        "scaleZ": 3.64992523
+      },
+      "Nickname": "Skaven Warlord On Broodhorror",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/sy5c0zmh9wl9c6k/2x125in_square_nobase_mirror.obj?dl=1",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/883128271158510556/2D78DD00A5EDAE878C4C4773193A7F808FE9A3DC/",
+        "NormalURL": "",
+        "ColliderURL": "https://www.dropbox.com/s/x3gvl8szfvpu4nx/MyFigure_Collider_2in_nn.obj?dl=1",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 5.0,
+        "AngularDrag": 50.0,
+        "UseGravity": true
+      }
+    },
+    {
+      "GUID": "0410c3",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -22.5589867,
+        "posY": 1.05138171,
+        "posZ": 14.6957912,
+        "rotX": -0.000659441,
+        "rotY": 179.981033,
+        "rotZ": 0.000173616587,
+        "scaleX": 2.438654,
+        "scaleY": 1.79999948,
+        "scaleZ": 1.79999948
+      },
+      "Nickname": "Verminlord Warbringer",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992179,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "http://i.imgur.com/aGIjlek.png",
+        "NormalURL": "http://i.imgur.com/o8SLaoI.png",
+        "ColliderURL": "https://paste.ee/r/HueaF",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "JointFixed": {
+        "ConnectedBodyGUID": "5f23c9",
+        "EnableCollision": false,
+        "Axis": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Anchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "ConnectedAnchor": {
+          "x": 0.0148872053,
+          "y": -1.03698015,
+          "z": -0.0921215862
+        },
+        "BreakForce": "Infinity",
+        "BreakTorgue": "Infinity"
+      }
+    },
+    {
+      "GUID": "5f23c9",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -22.8781185,
+        "posY": 3.615025,
+        "posZ": 14.6598787,
+        "rotX": -0.000734467932,
+        "rotY": 269.992828,
+        "rotZ": 359.979065,
+        "scaleX": 2.472201,
+        "scaleY": 2.472201,
+        "scaleZ": 3.46452236
+      },
+      "Nickname": "Verminlord Warbringer",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://www.dropbox.com/s/sy5c0zmh9wl9c6k/2x125in_square_nobase_mirror.obj?dl=1",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/883128271158537468/397DBD384D67A20709B28BB853BFB2863C00F847/",
+        "NormalURL": "",
+        "ColliderURL": "https://www.dropbox.com/s/x3gvl8szfvpu4nx/MyFigure_Collider_2in_nn.obj?dl=1",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.0,
+        "Drag": 5.0,
+        "AngularDrag": 50.0,
+        "UseGravity": true
+      }
+    },
+    {
+      "GUID": "08f110",
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 0.2038993,
+        "posY": 0.9600001,
+        "posZ": 10.4001846,
+        "rotX": 6.108337E-08,
+        "rotY": 180.0,
+        "rotZ": -1.34783278E-08,
+        "scaleX": 2.92840672,
+        "scaleY": 1.0,
+        "scaleZ": 2.92840672
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/883128271158604753/C5A6A32B7FC88B80FB0FEF8A2C260D9F8176B5F6/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "419dbf",
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 22.24621,
+        "posY": 0.9600002,
+        "posZ": 9.012864,
+        "rotX": 1.14649914E-07,
+        "rotY": 180.000031,
+        "rotZ": -1.08611708E-07,
+        "scaleX": 2.92840672,
+        "scaleY": 1.0,
+        "scaleZ": 2.92840672
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/883128271158606648/CE8E673519EEAA1227C0AC580E3A556007310165/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "e901e3",
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 11.9240475,
+        "posY": 0.960000157,
+        "posZ": 10.58139,
+        "rotX": -4.247189E-08,
+        "rotY": 179.998871,
+        "rotZ": -4.60407428E-08,
+        "scaleX": 2.92840672,
+        "scaleY": 1.0,
+        "scaleZ": 2.92840672
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/883128271158607323/DE0363ACB40887C0E9F6EADA799CF247CB00F696/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "fc4f2d",
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -10.1350136,
+        "posY": 0.960000157,
+        "posZ": 10.3369637,
+        "rotX": -5.0396963E-08,
+        "rotY": 180.0,
+        "rotZ": -1.37496386E-07,
+        "scaleX": 2.92840672,
+        "scaleY": 1.0,
+        "scaleZ": 2.92840672
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/883128271158609586/7A9D99C6A49C59AE6A8F1E87C7675E75C32B6651/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "704621",
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -22.097353,
+        "posY": 0.960000038,
+        "posZ": 7.94692659,
+        "rotX": 7.78979E-08,
+        "rotY": 180.006882,
+        "rotZ": -3.21962936E-08,
+        "scaleX": 4.57797241,
+        "scaleY": 1.0,
+        "scaleZ": 4.57797241
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/883128271158610674/D8B0073DD6D4BA3B6327A4C30110F77F068BB4D3/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  ]
+}
